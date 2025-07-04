@@ -40,7 +40,6 @@ function List({url}) {
           <b>Name</b>
           <b>Category</b>
           <b>Price</b>
-          <b>Action</b>
         </div>
         {list.map((item,index) => {
           return(
@@ -49,7 +48,6 @@ function List({url}) {
               <p>{item.name}</p>
               <p>{item.category}</p>
               <p>${item.price}</p>
-              <p onClick={()=>removeFood(item._id)} className='cursor'>X</p>
             </div>
           )
         })}
