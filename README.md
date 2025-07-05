@@ -1,12 +1,25 @@
-# React + Vite
+# 🍽️ Food Delivery Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the Admin Panel for the Food Delivery Web Application. It allows administrators to manage food items, view orders, track payments, and handle overall system operations.
 
-Currently, two official plugins are available:
+## ✅ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 View & Manage All Orders
+- 🍔 Add, Edit, and Delete Food Items
+- 📦 Track Order Status
+- 💰 Monitor Payments & Total Revenue
+- 📊 Dashboard with Key Stats
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+- **React.js** – UI Components and Routing
+- **Axios** – API Communication
+- **React Icons** – Dashboard Icons
+
+### Backend (Shared with Main App)
+- **Node.js + Express** – REST APIs
+- **MongoDB** – Database for orders and food data
+- **JWT / Middleware** – Admin authentication
